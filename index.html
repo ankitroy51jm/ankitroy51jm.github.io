@@ -18,7 +18,7 @@
     <a href="#about">About</a><a href="#services">Services</a><a href="#work">Work</a>
     <a href="#pricing">Pricing</a><a href="#reviews">Reviews</a><a href="#contact">Contact</a>
   </nav>
-  <a class="btn btn-dark nav-btn" href="https://wa.me/919664478465?text=Hi%20Ankit%2C%20I%20want%20to%20discuss%20a%20video%20editing%20project." target="_blank" rel="noopener">Hire Me</a>
+  <a class="btn btn-dark nav-btn" href="https://wa.me/918094154563?text=Hi%20Ankit%2C%20I%20want%20to%20discuss%20a%20video%20editing%20project." target="_blank" rel="noopener">Hire Me</a>
 </header>
 
 <main>
@@ -30,7 +30,7 @@
     <p class="lead">I create engaging short-form, promotional and AI-powered visual content for brands, creators and businesses.</p>
     <div class="actions">
       <a class="btn btn-dark" href="#work">View My Work</a>
-      <a class="btn btn-light" href="https://wa.me/919664478465?text=Hi%20Ankit%2C%20I%20want%20to%20hire%20you%20for%20a%20project." target="_blank" rel="noopener">Chat on WhatsApp</a>
+      <a class="btn btn-light" href="https://wa.me/918094154563?text=Hi%20Ankit%2C%20I%20want%20to%20hire%20you%20for%20a%20project." target="_blank" rel="noopener">Chat on WhatsApp</a>
     </div>
     <div class="mini-stats"><span><strong>2+</strong> Years Experience</span><span><strong>7</strong> Creative Services</span><span><strong>Local + Remote</strong> Work</span></div>
   </div>
@@ -143,7 +143,7 @@
       <small id="formNote"></small>
     </form>
     <aside class="contact-side reveal">
-      <a class="contact-item" href="https://wa.me/919664478465" target="_blank" rel="noopener"><span>WhatsApp</span><b>+91 96644 78465 ↗</b></a>
+      <a class="contact-item" href="https://wa.me/918094154563" target="_blank" rel="noopener"><span>WhatsApp — No Calls</span><b>+91 80941 54563 ↗</b></a>
       <a class="contact-item" href="mailto:ankitroy51jm@gmail.com"><span>Email</span><b>ankitroy51jm@gmail.com ↗</b></a>
       <a class="contact-item" href="https://www.instagram.com/ankit__roy__67/" target="_blank" rel="noopener"><span>Instagram</span><b>@ankit__roy__67 ↗</b></a>
       <div class="qr-mini"><img src="ankio-instagram-qr.png" alt="Instagram QR"><div><b>Scan to follow</b><span>Instagram • ANKIO EDITS</span></div></div>
@@ -163,7 +163,7 @@ function escapeHtml(s){return s.replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','
 document.getElementById('reviewForm').addEventListener('submit',e=>{e.preventDefault();const reviews=JSON.parse(localStorage.getItem(reviewKey)||'[]');reviews.unshift({name:document.getElementById('reviewName').value.trim(),stars:Number(document.getElementById('reviewStars').value),text:document.getElementById('reviewText').value.trim()});localStorage.setItem(reviewKey,JSON.stringify(reviews.slice(0,12)));e.target.reset();renderReviews();});
 renderReviews();
 
-document.getElementById('contactForm').addEventListener('submit',e=>{e.preventDefault();const name=document.getElementById('name').value.trim();const whatsapp=document.getElementById('whatsapp').value.trim();const email=document.getElementById('email').value.trim();const service=document.getElementById('service').value;const budget=document.getElementById('budget').value.trim();const start=document.getElementById('startDate').value;const details=document.getElementById('details').value.trim();const msg=`Hi Ankit, I want to discuss a project.%0A%0AName: ${encodeURIComponent(name)}%0AWhatsApp: ${encodeURIComponent(whatsapp)}%0AEmail: ${encodeURIComponent(email)}%0AService: ${encodeURIComponent(service)}%0ABudget: ${encodeURIComponent(budget||'Not specified')}%0AStart Date: ${encodeURIComponent(start||'Not specified')}%0AProject Details: ${encodeURIComponent(details)}`;window.open('https://wa.me/919664478465?text='+msg,'_blank');document.getElementById('formNote').textContent='Your WhatsApp inquiry is ready to send.';});
+document.getElementById('contactForm').addEventListener('submit',e=>{e.preventDefault();const name=document.getElementById('name').value.trim();const whatsapp=document.getElementById('whatsapp').value.trim();const email=document.getElementById('email').value.trim();const service=document.getElementById('service').value;const budget=document.getElementById('budget').value.trim();const start=document.getElementById('startDate').value;const details=document.getElementById('details').value.trim();const msg=`Hi Ankit, I want to discuss a project.%0A%0AName: ${encodeURIComponent(name)}%0AWhatsApp: ${encodeURIComponent(whatsapp)}%0AEmail: ${encodeURIComponent(email)}%0AService: ${encodeURIComponent(service)}%0ABudget: ${encodeURIComponent(budget||'Not specified')}%0AStart Date: ${encodeURIComponent(start||'Not specified')}%0AProject Details: ${encodeURIComponent(details)}`;window.open('https://wa.me/918094154563?text='+msg,'_blank');document.getElementById('formNote').textContent='Your WhatsApp inquiry is ready to send.';});
 
 </script>
 </body>
